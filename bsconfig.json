@@ -1,0 +1,23 @@
+{
+  "name": "rescript-nextjs-template",
+  "namespace": false,
+  "reason": { "react-jsx": 3 },
+  "refmt": 3,
+  "bs-dependencies": ["@rescript/react"],
+  "ppx-flags": ["rescript-linaria/ppx"],
+  "sources": [{ "dir": "src", "subdirs": true }],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".js",
+  "warnings": {
+    "number": "+A-40-42-44"
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-g"],
+  "gentypeconfig": {
+    "language": "untyped",
+    "shims": [],
+    "module": "es6"
+  }
+}
