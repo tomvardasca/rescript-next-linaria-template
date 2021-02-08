@@ -1,19 +1,24 @@
-open Jest;
-open ReactTestingLibrary;
-open JestDom;
+open Jest
+open Expect
+open ReactTestingLibrary
+
+test("Component matches snapshot", () => {
+  <ExampleComponent /> |> render |> container |> expect |> toMatchSnapshot
+})
 
 test("Component renders hook", () => {
-   let result = <ExampleComponent /> |> render;
+  open JestDom
 
-    result |> getByText(~matcher=#RegExp(%re("/Count: 0/"))) |> expect |> toBeInTheDocument
-});
+  let result = <ExampleComponent /> |> render
 
-test("Component renders hook click", () => {
-   let result = <ExampleComponent /> |> render;
+  result |> getByText(~matcher=#RegExp(%re("/Count: 0/"))) |> expect |> toBeInTheDocument
+})
 
-    act(() =>
-      result |> getByText(~matcher=#RegExp(%re("/Click me/"))) |> FireEvent.click |> ignore
-    );
+test("Component renders hook after click", () => {
+  open JestDom
+  let result = <ExampleComponent /> |> render
 
-    result |> getByText(~matcher=#RegExp(%re("/Count: 1/"))) |> expect |> toBeInTheDocument
-});
+  act(() => result |> getByText(~matcher=#RegExp(%re("/Click me/"))) |> FireEvent.click |> ignore)
+
+  result |> getByText(~matcher=#RegExp(%re("/Count: 1/"))) |> expect |> toBeInTheDocument
+})

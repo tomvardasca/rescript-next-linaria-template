@@ -7,6 +7,10 @@ import * as JestDom from "bs-jest-dom/src/JestDom.js";
 import * as ExampleComponent from "./ExampleComponent.js";
 import * as ReactTestingLibrary from "bs-react-testing-library/src/ReactTestingLibrary.js";
 
+Jest.test("Component matches snapshot", (function (param) {
+        return Jest.Expect.toMatchSnapshot(Jest.Expect.expect(ReactTestingLibrary.render(undefined, undefined, undefined, undefined, undefined, React.createElement(ExampleComponent.make, {})).container));
+      }));
+
 Jest.test("Component renders hook", (function (param) {
         var result = ReactTestingLibrary.render(undefined, undefined, undefined, undefined, undefined, React.createElement(ExampleComponent.make, {}));
         var partial_arg_1 = /Count: 0/;
@@ -20,7 +24,7 @@ Jest.test("Component renders hook", (function (param) {
         return JestDom.toBeInTheDocument(expect(Curry._2(arg, undefined, result)));
       }));
 
-Jest.test("Component renders hook click", (function (param) {
+Jest.test("Component renders hook after click", (function (param) {
         var result = ReactTestingLibrary.render(undefined, undefined, undefined, undefined, undefined, React.createElement(ExampleComponent.make, {}));
         ReactTestingLibrary.act(function (param) {
               var arg = ReactTestingLibrary.FireEvent.click;

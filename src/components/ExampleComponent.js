@@ -3,12 +3,24 @@
 import * as Curry from "bs-platform/lib/es6/curry.js";
 import * as React from "react";
 
+import { css } from "@linaria/core"
+;
+
+var button = (css`
+    background-color: light-blue;
+  `);
+
+var Styles = {
+  button: button
+};
+
 function ExampleComponent(Props) {
   var match = React.useState(function () {
         return 0;
       });
   var setCount = match[1];
   return React.createElement("div", undefined, React.createElement("button", {
+                  className: button,
                   onClick: (function (param) {
                       return Curry._1(setCount, (function (c) {
                                     return c + 1 | 0;
@@ -20,7 +32,8 @@ function ExampleComponent(Props) {
 var make = ExampleComponent;
 
 export {
+  Styles ,
   make ,
   
 }
-/* react Not a pure module */
+/*  Not a pure module */

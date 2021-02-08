@@ -6,6 +6,7 @@ module.exports = {
     "^.+\\.(js)$": "babel-jest",
     "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
   },
+  snapshotResolver: './config/jest/snapshotResolver.js',
   transformIgnorePatterns: [
     "node_modules",
     "^.+\\.module\\.(css|sass|scss)$",
