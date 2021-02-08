@@ -26,7 +26,7 @@ let default = () =>
     </p>
     <h2 className=Styles.subTitle> {React.string("Quick Start")} </h2>
     <pre>
-      {React.string(j`git clone https://github.com/ryyppy/nextjs-default.git my-project
+      {React.string(j`git clone https://github.com/tomvardasca/rescript-next-linaria-template.git my-project
 cd my-project
 rm -rf .git`)} //github.com/ryyppy/nextjs-default.git my-project
     </pre>
