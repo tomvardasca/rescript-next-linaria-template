@@ -5,6 +5,7 @@ This is a NextJS based template with following setup:
 - [linaria](https://linaria.dev/) config and [stylelint](https://stylelint.io/)
 - ReScript linaria bindings from https://github.com/MinimaHQ/rescript-linaria
 - [ReScript](https://rescript-lang.org) + React
+- Added Jest through `@glennsl/bs-jest`and Testing Library trough `bs-dom-testing-library`
 - Some ReScript Bindings for Next to get you started
 - Pre-configured Dependencies: `rescript-react`
 
@@ -65,5 +66,5 @@ If you completely disagree with this, you can delete the emitted `.js` files wit
 
 ### Credits
 
- - Based of [@ryyppy](https://github.com/ryyppy) [escript-nextjs-template](https://github.com/ryyppy/rescript-nextjs-template/)
+ - Based of [@ryyppy](https://github.com/ryyppy) [rescript-nextjs-template](https://github.com/ryyppy/rescript-nextjs-template/)
  - Linaria configuration from https://github.com/Mistereo/next-linaria using the NextJS plugin would not work

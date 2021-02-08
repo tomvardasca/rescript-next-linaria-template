@@ -4,15 +4,27 @@
   "reason": { "react-jsx": 3 },
   "refmt": 3,
   "bs-dependencies": ["@rescript/react"],
+  "bs-dev-dependencies": ["bs-react-testing-library", "bs-dom-testing-library", "@glennsl/bs-jest", "bs-jest-dom"],
   "ppx-flags": ["rescript-linaria/ppx"],
-  "sources": [{ "dir": "src", "subdirs": true }],
-  "package-specs": {
-    "module": "es6",
-    "in-source": true
-  },
-  "suffix": ".js",
+  "sources": [
+    {
+      "type": "dev",
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": false
+    },
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
   "warnings": {
-    "number": "+A-40-42-44"
+    "number": "+A-40-42-44-48"
   },
   "bsc-flags": ["-bs-super-errors", "-bs-g"],
   "gentypeconfig": {

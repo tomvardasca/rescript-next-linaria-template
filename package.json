@@ -14,8 +14,8 @@
     "express": "^4.17.1",
     "gentype": "^3.42.0",
     "next": "^10.0.6",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rescript-linaria": "0.1.0"
   },
   "scripts": {
@@ -27,11 +27,19 @@
     "start": "next start -p $PORT",
     "res:build": "bsb -make-world",
     "res:clean": "bsb -clean-world",
-    "res:start": "bsb -make-world -w"
+    "res:start": "bsb -make-world -w",
+    "test": "bsb -clean-world -make-world && NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.13",
+    "@glennsl/bs-jest": "^0.6.0",
     "@linaria/webpack-loader": "^3.0.0-beta.1",
+    "babel-jest": "^26.6.3",
+    "bs-dom-testing-library": "^0.7.0",
+    "bs-jest-dom": "^4.1.1",
     "bs-platform": "8.4.2",
+    "bs-react-testing-library": "^0.8.0",
+    "identity-obj-proxy": "^3.0.0",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^4.1.0",
     "react-rules-of-hooks-ppx": "^0.8.1",
@@ -41,7 +49,9 @@
     "webpack": "^5.21.1"
   },
   "resolutions": {
-    "webpack": "^5.20.2"
+    "webpack": "^5.20.2",
+    "**/react": "^17.0.1",
+    "**/react-dom": "^17.0.1"
   },
   "browserslist": [
     "last 1 version, >1%"
