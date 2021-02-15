@@ -2861,10 +2861,10 @@ gensync@^1.0.0-beta.1:
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
   integrity sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
 
-gentype@^3.42.0:
-  version "3.42.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.42.0.tgz#46d7a69f6a4c1f8cfb207cf0218a8d76cd585d75"
-  integrity sha512-buQPfSra5eJHRTA20Yqws5OxFLYGU9zbbSzwiZ2gPudGBZUIpEz9wQWLy9pWaVvUE3bEKG6CA893gXTnU9sHJg==
+gentype@^3.43.0:
+  version "3.43.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.43.0.tgz#6026f82732edd944208a0487748ee4a87706dea1"
+  integrity sha512-XJNKJ+kLAHKaJEGVvkJnLtU50h5usxFGoLRCPGbfnlkdZWOymo9bRkAiZp2e5bdWv6dg6/LA4plQVgGvyDACWg==
 
 get-intrinsic@^1.0.2:
   version "1.1.1"

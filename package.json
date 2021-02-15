@@ -12,7 +12,7 @@
     "@next/bundle-analyzer": "^10.0.6",
     "@rescript/react": "0.10.1",
     "express": "^4.17.1",
-    "gentype": "^3.42.0",
+    "gentype": "^3.43.0",
     "next": "^10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
