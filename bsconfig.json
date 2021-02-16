@@ -4,13 +4,26 @@
   "reason": { "react-jsx": 3 },
   "refmt": 3,
   "bs-dependencies": ["@rescript/react"],
-  "bs-dev-dependencies": ["bs-react-testing-library", "bs-dom-testing-library", "@glennsl/bs-jest", "bs-jest-dom"],
+  "bs-dev-dependencies": [
+    "@tomvardasca/rescript-react-testing-library",
+    "bs-dom-testing-library",
+    "@glennsl/bs-jest",
+    "bs-jest-dom"
+  ],
   "ppx-flags": ["rescript-linaria/ppx"],
   "sources": [
     {
-      "type": "dev",
       "dir": "src",
-      "subdirs": true
+      "subdirs": [
+        {
+          "type": "dev",
+          "dir": "__tests__",
+          "subdirs": true
+        },
+        { "dir": "bindings", "subdirs": true },
+        { "dir": "components", "subdirs": true },
+        { "dir": "layouts", "subdirs": true }
+      ]
     }
   ],
   "package-specs": [

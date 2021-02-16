@@ -3,6 +3,7 @@ open Expect
 open ReactTestingLibrary
 
 test("Component matches snapshot", () => {
+  
   <ExampleComponent /> |> render |> container |> expect |> toMatchSnapshot
 })
 

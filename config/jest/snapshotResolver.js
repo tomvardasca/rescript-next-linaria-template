@@ -6,14 +6,16 @@ module.exports = {
         path.basename(testPath) + '.snap',
       ),
 
-    resolveTestPath: (snapshotPath) => path.resolve(
-        '/lib/js/' + path.dirname(snapshotPath),
+    resolveTestPath: (snapshotPath) => path.join(
+        path.dirname(snapshotPath),
         path.basename(snapshotPath).replace('.snap', ''),
       ),
 
     testPathForConsistencyCheck: path.posix.join(
-      '/lib/js/',
+      'lib',
+      'js',
       'src',
+      '__tests__',
       'example_test.js',
     ),
   }

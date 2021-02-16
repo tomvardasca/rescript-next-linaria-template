@@ -4,16 +4,15 @@
   "author": "Tomé Vardasca <tomvardasca@users.noreply.github.com>",
   "license": "Apache License 2.0",
   "dependencies": {
-    "@babel/core": "^7.12.13",
+    "@babel/core": "^7.12.16",
     "@linaria/babel-preset": "^3.0.0-beta.1",
     "@linaria/core": "^3.0.0-beta.1",
     "@linaria/react": "^3.0.0-beta.1",
     "@linaria/shaker": "^3.0.0-beta.1",
-    "@next/bundle-analyzer": "^10.0.6",
     "@rescript/react": "0.10.1",
     "express": "^4.17.1",
-    "gentype": "^3.42.0",
-    "next": "^10.0.6",
+    "gentype": "^3.43.0",
+    "next": "^10.0.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "rescript-linaria": "0.1.0"
@@ -31,25 +30,26 @@
     "test": "bsb -clean-world -make-world && NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.12.13",
+    "@next/bundle-analyzer": "^10.0.7",
+    "@babel/preset-env": "^7.12.16",
     "@glennsl/bs-jest": "^0.6.0",
     "@linaria/webpack-loader": "^3.0.0-beta.1",
     "babel-jest": "^26.6.3",
     "bs-dom-testing-library": "^0.7.0",
     "bs-jest-dom": "^4.1.1",
-    "bs-platform": "8.4.2",
-    "bs-react-testing-library": "^0.8.0",
+    "bs-platform": "9.0.0",
+    "@tomvardasca/rescript-react-testing-library": "^0.9.1",
     "identity-obj-proxy": "^3.0.0",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^4.1.0",
     "react-rules-of-hooks-ppx": "^0.8.1",
-    "stylelint": "13.9.0",
+    "stylelint": "13.10.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-webpack-plugin": "^2.1.1",
-    "webpack": "^5.21.1"
+    "webpack": "^5.22.0"
   },
   "resolutions": {
-    "webpack": "^5.20.2",
+    "webpack": "^5.22.0",
     "**/react": "^17.0.1",
     "**/react-dom": "^17.0.1"
   },
