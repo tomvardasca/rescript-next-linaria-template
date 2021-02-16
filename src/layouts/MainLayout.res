@@ -93,7 +93,7 @@ module Navigation = {
         <a className=Styles.logo>
           <img src="/static/zeit-black-triangle.svg" />
           <span>
-            {React.string("Next")} <span> {React.string("RE")} </span>
+            {React.string("Next")} <span> {React.string("RES")} </span>
           </span>
         </a>
       </Link>
@@ -101,7 +101,7 @@ module Navigation = {
         <Link href="/"> <a> {React.string("Home")} </a> </Link>
         <Link href="/examples"> <a> {React.string("Examples")} </a> </Link>
         <a target="_blank"
-          href="https://github.com/tomvardasca/nextjs-default">
+          href="https://github.com/tomvardasca/rescript-next-linaria-template">
           {React.string("Github")}
         </a>
       </div>
