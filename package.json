@@ -27,7 +27,7 @@
     "res:build": "bsb -make-world",
     "res:clean": "bsb -clean-world",
     "res:start": "bsb -make-world -w",
-    "test": "res:build && jest",
+    "test": "yarn res:build && jest",
     "dev": "concurrently \"npm:res:start\" \"npm:next:dev\""
   },
   "devDependencies": {
