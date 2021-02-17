@@ -28,3 +28,4 @@ jobs:
           architecture: ${{ matrix.architecture }}
       - run: yarn install
       - run: yarn build
+      - run: yarn test
