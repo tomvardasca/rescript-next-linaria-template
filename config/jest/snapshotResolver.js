@@ -11,7 +11,7 @@ module.exports = {
         path.basename(snapshotPath).replace('.snap', ''),
       ),
 
-    testPathForConsistencyCheck: path.posix.join(
+    testPathForConsistencyCheck: path.join(
       'lib',
       'js',
       'src',
