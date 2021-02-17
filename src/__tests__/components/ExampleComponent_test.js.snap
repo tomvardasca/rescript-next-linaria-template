@@ -4,7 +4,7 @@ exports[`Component matches snapshot 1`] = `
 <div>
   <div>
     <button
-      class="b1j9645y"
+      class="button_0"
     >
       Click me
     </button>
