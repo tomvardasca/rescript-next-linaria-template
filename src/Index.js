@@ -29,7 +29,7 @@ function $$default(param) {
                   className: p
                 }, "This is a simple template for a Next\n      project using ReScript & linaria."), React.createElement("h2", {
                   className: subTitle
-                }, "Quick Start"), React.createElement("pre", undefined, "git clone https://github.com/ryyppy/nextjs-default.git my-project\ncd my-project\nrm -rf .git"));
+                }, "Quick Start"), React.createElement("pre", undefined, "git clone https://github.com/tomvardasca/rescript-next-linaria-template.git my-project\ncd my-project\nrm -rf .git"));
 }
 
 export {

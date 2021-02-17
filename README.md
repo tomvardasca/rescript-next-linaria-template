@@ -11,13 +11,7 @@ This is a NextJS based template with following setup:
 
 ## Development
 
-Run ReScript in dev mode:
-
-```
-yarn res:start
-```
-
-In another tab, run the Next dev server:
+Run ReScript nd `NexyJS` in dev mode:
 
 ```
 yarn dev
@@ -28,7 +22,7 @@ yarn dev
 ```
 # Make sure to uncomment the `target` attribute in `now.json` first, before you run this:
 yarn build
-PORT=3001 yarn start
+PORT=3001 yarn next:start
 ```
 
 ## Tips

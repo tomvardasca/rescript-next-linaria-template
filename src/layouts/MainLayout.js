@@ -113,7 +113,7 @@ function MainLayout$Navigation(Props) {
                         className: logo
                       }, React.createElement("img", {
                             src: "/static/zeit-black-triangle.svg"
-                          }), React.createElement("span", undefined, "Next", React.createElement("span", undefined, "RE")))
+                          }), React.createElement("span", undefined, "Next", React.createElement("span", undefined, "RES")))
                 }), React.createElement("div", {
                   className: links
                 }, React.createElement(Link, {
@@ -123,7 +123,7 @@ function MainLayout$Navigation(Props) {
                       href: "/examples",
                       children: React.createElement("a", undefined, "Examples")
                     }), React.createElement("a", {
-                      href: "https://github.com/tomvardasca/nextjs-default",
+                      href: "https://github.com/tomvardasca/rescript-next-linaria-template",
                       target: "_blank"
                     }, "Github")));
 }
