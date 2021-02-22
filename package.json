@@ -31,7 +31,7 @@
     "dev": "concurrently \"npm:res:start\" \"npm:next:dev\""
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-env": "^7.12.17",
     "@glennsl/bs-jest": "^0.6.0",
     "@linaria/webpack-loader": "^3.0.0-beta.1",
     "@next/bundle-analyzer": "^10.0.7",
@@ -40,7 +40,7 @@
     "bs-dom-testing-library": "^0.7.0",
     "bs-jest-dom": "^4.1.1",
     "bs-platform": "9.0.1",
-    "concurrently": "^5.3.0",
+    "concurrently": "^6.0.0",
     "cross-env": "^7.0.3",
     "identity-obj-proxy": "^3.0.0",
     "next-compose-plugins": "^2.2.1",
