@@ -46,7 +46,7 @@
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^4.1.0",
     "react-rules-of-hooks-ppx": "^0.8.1",
-    "stylelint": "13.11.0",
+    "stylelint": "13.13.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-webpack-plugin": "^2.1.1",
     "webpack": "^5.23.0"
