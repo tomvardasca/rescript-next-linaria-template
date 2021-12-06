@@ -1111,10 +1111,12 @@
     source-map "^0.6.1"
     stylis "^3.5.4"
 
-"@linaria/core@^3.0.0-beta.1":
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-3.0.0-beta.1.tgz#bfacfd7922ed3844ae75db2979539a7cac4d8553"
-  integrity sha512-W8VGvO76PH1EnR26Gix6f0weMv/mBptz24euAo1vC8HahyUP/A9RAYyOPPs3C39iAbHPLiGWA/UtS/UoYQbDZA==
+"@linaria/core@^3.0.0-beta.1", "@linaria/core@^3.0.0-beta.15":
+  version "3.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-3.0.0-beta.15.tgz#570fab9430e5b4f2677fbb4eaeda66c041030f08"
+  integrity sha512-9sqPCcWIlA1zTck45uNGqrjtnWj5HGa7Lxbaw1ZsCcm6K6WcMVyOqW3OQkMBHuf3OzC50Mzb8z7d7d6Rpg8uFw==
+  dependencies:
+    "@linaria/utils" "^3.0.0-beta.15"
 
 "@linaria/logger@3.0.0-beta.0", "@linaria/logger@^3.0.0-beta.0":
   version "3.0.0-beta.0"
@@ -1151,6 +1153,11 @@
     "@linaria/logger" "^3.0.0-beta.0"
     "@linaria/preeval" "^3.0.0-beta.1"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
+
+"@linaria/utils@^3.0.0-beta.15":
+  version "3.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-3.0.0-beta.15.tgz#001d8dacf113c443960651593144e64bf39e995a"
+  integrity sha512-CF0T8ueWjHK8zJT0oqdAq8JgL9a40WCyE5/t6q8WPvC7xRdsrfyUKA7Z8qEsQse2LKESVWJ5cvkkn8J80B6c+A==
 
 "@linaria/webpack-loader@^3.0.0-beta.1":
   version "3.0.0-beta.1"
